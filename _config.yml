@@ -1,7 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: ""
-port: "3000"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
