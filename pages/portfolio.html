@@ -10,8 +10,10 @@ hide: true
 <!-- Portfolio Grid Section -->
 <section class="portfolio">
     <div class="row">
+        {% assign i = 0 %}
         {% for item in site.portfolio %}
-        <div class="col-sm-4 col-xs-4 portfolio-item">
+        {% if i < 9 %}
+         <div class="col-sm-4 col-xs-4 portfolio-item">
             <a href="{{ site.baseurl }}{{ item.url }}" class="portfolio-link" data-keyboard="true">
                 <div class="caption" title="{{ item.title }}">
                     <div class="caption-content">
@@ -20,7 +22,10 @@ hide: true
                 </div>
                 <img src="{{ site.baseurl }}/{{ item.img }}" class="" alt="">
             </a>
+            <!--<p>{{i}}</p>-->
         </div>
+        {% endif %}
+        {% assign i=i | plus:1 %}
         {% endfor %}
     </div>
 </section>
