@@ -1,0 +1,75 @@
+<header class="site-header">
+    
+    <!-- Logo and title -->
+	<div class="branding">
+		<a href="{{ site.baseurl }}/">
+			<img class="avatar" src="{{ site.baseurl }}/{{ site.theme_settings.avatar }}" alt=""/>
+		</a>
+
+		<h1 class="site-title">
+			<a href="{{ site.baseurl }}/">{{ site.theme_settings.title }}</a>
+		</h1>
+	</div>
+    
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a id="pull" class="toggle" href="#">
+    <i class="fa fa-bars fa-lg"></i>
+    </a>
+    
+    <!-- Menu -->
+    <ul>
+        {% if site.theme_settings.portfolio %}
+        <li>
+            <a class="clear" href="{{ site.url }}{{ site.baseurl }}/news">
+                News
+            </a>
+        </li>
+        {% endif %}
+
+        <li>
+            <a class="clear" href="{{ site.url }}{{ site.baseurl }}/professor">
+                Professor
+            </a>
+        </li>
+
+        <li>
+            <a class="clear" href="{{ site.url }}{{ site.baseurl }}/student">
+                Students
+            </a>
+        </li>
+
+        {% if site.theme_settings.portfolio %}
+        <li>
+            <a class="clear" href="{{ site.url }}{{ site.baseurl }}/portfolio">
+                Research
+            </a>
+        </li>
+        {% endif %}
+
+        <li>
+            <a class="clear" href="{{ site.url }}{{ site.baseurl }}/publications">
+                Publications
+            </a>
+        </li>
+        <!--{% for page in site.pages %}-->
+        <!--{% if page.title and page.hide != true %}-->
+        <!--<li>-->
+            <!--<a class="clear" href="{{ page.url | relative_url }}">-->
+                <!--{{ page.title }}-->
+            <!--</a>-->
+        <!--</li>-->
+        <!--{% endif %}-->
+        <!--{% endfor %} -->
+
+        <li>
+            <a class="clear" href="{{ site.url }}{{ site.baseurl }}/contact">
+                Contact us
+            </a>
+        </li>
+
+        
+    </ul>
+        
+	</nav>
+</header>
