@@ -3,7 +3,7 @@ layout: post
 subtitle: Professor Chen Li
 title: Faculty
 permalink: /professor/
-img: "assets/img/pexels/cli_1.png"
+img: "assets/img/pexels/cli.png"
 ---
 
 ![image]({{ site.baseurl }}/{{ page.img }})
