@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3441f61-f68d-42a8-bbae-89b2412f72cf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Professor.md" afterPath="$PROJECT_DIR$/pages/Professor.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/navbar.html" afterPath="$PROJECT_DIR$/_includes/navbar.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Professor.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Professor.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/Professor.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="104">
@@ -43,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1898">
-              <caret line="73" column="10" lean-forward="false" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+            <state relative-caret-position="-512">
+              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -262,13 +262,13 @@
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/pages/grid.md" />
         <option value="$PROJECT_DIR$/_site/grid/index.html" />
-        <option value="$PROJECT_DIR$/_includes/navbar.html" />
         <option value="$PROJECT_DIR$/pages/Students.md" />
         <option value="$PROJECT_DIR$/_sass/base/_utility.scss" />
         <option value="$PROJECT_DIR$/_sass/layouts/_posts.scss" />
         <option value="$PROJECT_DIR$/_layouts/students.html" />
         <option value="$PROJECT_DIR$/_portfolio/typography.md" />
         <option value="$PROJECT_DIR$/pages/Professor.md" />
+        <option value="$PROJECT_DIR$/_includes/navbar.html" />
       </list>
     </option>
   </component>
@@ -306,6 +306,11 @@
             <path>
               <item name="2013303386.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="2013303386.github.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2013303386.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2013303386.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2013303386.github.com" type="b2602c69:ProjectViewProjectNode" />
@@ -675,14 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1898">
-          <caret line="73" column="10" lean-forward="false" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2600">
@@ -826,6 +823,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding />
         </state>
       </provider>
