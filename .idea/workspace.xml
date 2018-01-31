@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3441f61-f68d-42a8-bbae-89b2412f72cf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-9-1-XJTU-BioMedTM.md" afterPath="$PROJECT_DIR$/_posts/2016-9-1-XJTU-BioMedTM.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Contact.md" afterPath="$PROJECT_DIR$/pages/Contact.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/publications.md" afterPath="$PROJECT_DIR$/pages/publications.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2013303386.github.com" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/pages/Contact.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -238,7 +235,7 @@
             <path>
               <item name="2013303386.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="2013303386.github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+              <item name="_portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2013303386.github.com" type="b2602c69:ProjectViewProjectNode" />
@@ -725,7 +722,7 @@
     <entry file="file://$PROJECT_DIR$/pages/Contact.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
