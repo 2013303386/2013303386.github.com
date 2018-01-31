@@ -1,7 +1,7 @@
 ---
 layout: post
 subtitle: Professor Chen Li
-title: Professor
+title: Faculty
 permalink: /professor/
 img: "assets/img/pexels/cli.png"
 ---
