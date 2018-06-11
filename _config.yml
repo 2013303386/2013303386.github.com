@@ -5,7 +5,7 @@ url: ""
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: XJTU BioMedTM
+#  title: XJTU BioMedTM
   avatar: assets/img/group_icon.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash

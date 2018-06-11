@@ -1,9 +1,15 @@
 ---
 layout: post
-title: Biomedical text mining research group of XJTU
+title: Biomedical Semantic Understanding Group
 ---
-The biomedical text mining research team is focused on the development of artificial intelligence algorithms based on Natural Language Processing and
-bioinformatics. We are committed to constructing unstructured, massive biomedical and clinical data into a structured biomedical knowledge map.
-Research areas: the construction and analysis of Natural Language Processing (information extraction, text representation),
-biomedical text mining, and knowledge map (semantic web). Research methods: deep learning, semantic analysis,
-machine learning. Applications: biomedical, social media.
+Efficient data retrieval becomes increasingly crucial in the era of Big
+Data. Within the data, around 80%~90% potentially useful information is
+presented in unstructured form, such as texts etc. <br />
+The biomedical semantic understanding group is led by Professor <a href="http://www.chenli.group/member/">Chen Li</a> and focuses on designing state-of-the-art
+algorithms of Natural Language Processing and artificial intelligent
+methods of bioinformatics to achieve automated knowledge discovery from
+vast amount texts and images.
+In lay words, we teach computers to understand texts and be able to
+think like human. <br />
+Research keywords: natural language processing, machine learning,
+semantic analysis, sentiment analysis.
