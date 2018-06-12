@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Biomedical Semantic Understanding Group
+title: Biomedical Semantic Understanding Group(BioSun)
 ---
 Efficient data retrieval becomes increasingly crucial in the era of Big
 Data. Within the data, around 80%~90% potentially useful information is
