@@ -36,11 +36,12 @@
 // Post listing
 .posts {
     .post-teaser {
-        @extend %padding-regular-index-post;
+        //@extend %padding-regular-index-post;
         width: 100%;
         margin-bottom: 0;
-        display: inline-block;
-        background-size: $feature-image-size;
+        margin-left: 5%;
+        //display: inline-block;
+        //background-size: $feature-image-size;
         border-bottom: 1px solid $border-color;
         p a {
             @extend .body-link;
@@ -51,7 +52,7 @@
         }
 
         .post-img {
-            vertical-align: middle;
+            //vertical-align: middle;
             border-radius: 25px;
             overflow: hidden;
             
@@ -87,7 +88,10 @@
         }
     }
     .excerpt {
-        margin-top: 1em;
+        margin-top: 0.5em;
+        margin-bottom: 2em;
+        width: 90%;
+        //background-color: red;
     }
 }
 
