@@ -10,8 +10,10 @@
     padding: $padding-small_index $padding-large_index;
     @media (max-width: 1000px) {
         padding: $padding-small_index * 1.5 $padding-large_index / 1.6;
+        background-color: red;
     }
     @media (max-width: 576px) {
+        background-color: red;
         padding: $padding-small_index;
     }
 }

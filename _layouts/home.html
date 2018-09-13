@@ -4,14 +4,16 @@ layout: default
 
 <div class="home">
     {% if site.theme_settings.header_text %}
-    <div id="main" class="call-out"
+    <div class="call-out"
          style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
-        {{ site.theme_settings.header_text }}
+        <!--{{ site.theme_settings.header_text }}-->
     </div>
     {% endif %}
 
     <div class="posts">
+        {% assign i = 0 %}
         {% for post in paginator.posts %}
+        {% if i > 0 %}
         <div class="post-teaser">
             {% if post.feature-img %}
             <div class="post-img">
@@ -23,6 +25,7 @@ layout: default
             <h1>
               <a class="post-link" style="" href="{{ post.url | prepend: site.baseurl }}">
                 {{ post.title }}
+                  <!--{{post.url}}-->
               </a>
             </h1>
               <!--<p class="meta">-->
@@ -44,6 +47,8 @@ layout: default
             <br /> <br />
             Research keywords: natural language processing, machine learning,
             semantic analysis, sentiment analysis.
+              <br /><br />
+              <a href="{{site.url}}{{site.baseurl}}/recruiting" style="font-size: 20pt">We are recruiting</a>
             {% else %}
               hello world
             {{ post.content | strip_html | truncate: "800" }}
@@ -55,6 +60,8 @@ layout: default
           </div>
       </span>
         </div>
+        {% endif %}
+        {% assign i = i | plus:1%}
         {% endfor %}
     </div>
 
@@ -74,4 +81,4 @@ layout: default
         {% endif %}
     </div>
     {% endif %}
-</div>
+</div class="home">
